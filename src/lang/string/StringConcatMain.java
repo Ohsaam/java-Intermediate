@@ -7,7 +7,6 @@ public class StringConcatMain {
         String b = "java"; // x002
 
         String result = a.concat(b);
-
         String result2 = a + b; 
         // 1. 참조값끼리 더하는 건 불가능 함
         // 2. 근데 어떻게 문자열이 더해지지?
