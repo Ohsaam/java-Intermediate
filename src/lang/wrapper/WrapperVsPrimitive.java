@@ -15,6 +15,8 @@ public class WrapperVsPrimitive {
         System.out.println("기본형 long 사용 시간: " + (endTime - startTime) + "ms");
         System.out.println("기본형 long 합계: " + sumPrimitive);
 
+
+        
         Long sumWrapper = 0L;
         startTime = System.currentTimeMillis();
         for (int i = 0; i < iterations; i++) {
