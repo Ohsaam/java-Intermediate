@@ -19,7 +19,7 @@ public class SystemMain {
 
         // 자바 버전
         System.out.println("java.version: " + System.getProperty("java.version"));
-
+ 
         // 배열을 고속으로 복사한다.
         char[] originamlArray = new char[]{'a', 'b', 'c', 'd', 'e'};
         char[] copiedArray = new char[5];
@@ -28,7 +28,7 @@ public class SystemMain {
 
         // 프로그램 종료
         System.exit(0);
-        
+
 
     }
 }
