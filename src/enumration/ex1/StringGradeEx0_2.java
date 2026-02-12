@@ -1,0 +1,22 @@
+package enumration.ex1;
+
+public class StringGradeEx0_2 {
+    public static void main(String[] args) {
+        int price = 10000;
+
+        DiscountService discountService = new DiscountService();
+        int discountPrice = discountService.discount("BASIC", price);
+        System.out.println("BASIC 등급 할인 금액: " + discountPrice);
+
+        discountPrice = discountService.discount("SILVER", price);
+        System.out.println("SILVER 등급 할인 금액: " + discountPrice);
+
+        discountPrice = discountService.discount("GOLD", price);
+        System.out.println("GOLD 등급 할인 금액: " + discountPrice);
+
+        int noGradeDiscountPrice = discountService.discount("NO_GRADE", price);
+        System.out.println("등급 없음 할인 금액: " + noGradeDiscountPrice);
+
+        
+    }
+}
